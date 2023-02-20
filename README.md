@@ -65,6 +65,8 @@ new Trigger({
 1. Make sure and update the `repo` parameter to point to a GitHub repository you manage by setting the `GITHUB_REPOSITORY` environment variable.
 2. Feel free to customize [postMessage](https://docs.trigger.dev/integrations/apis/slack/actions/post-message) call with more data from the [GitHub IssueEvent](https://docs.trigger.dev/integrations/apis/github/events/issues) and change the channel name.
 
+You can also do this with [comments](https://docs.trigger.dev/integrations/apis/github/events/issue-comments) , [pull requests](https://docs.trigger.dev/integrations/apis/github/events/pull-requests), and more.
+
 ## 💻 Run locally
 
 First, in your terminal of choice, clone the repo and install dependencies:
@@ -93,3 +95,15 @@ You should see a message like the following:
 ```
 [trigger.dev]  ✨ Connected and listening for events [github-issues-to-slack]
 ```
+
+## 🚀 Deploy
+
+We've made it really easy to deploy this repo to Render.com, if you don't already have a Node.js server to host your triggers.
+
+[Render.com](https://render.com) is a super-fast way to deploy webapps and servers (think of it like a modern Heroku)
+
+<a href="https://render.com/deploy?repo=https://github.com/triggerdotdev/github-issues-to-slack">
+  <img width="144px" src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
+
+> **Note** Make sure you use your "live" trigger.dev API Key when deploying to a server
