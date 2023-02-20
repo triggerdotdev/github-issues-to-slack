@@ -56,6 +56,10 @@ new Trigger({
 }).listen();
 ```
 
+## An example of the message posted to Slack:
+
+![GitHub Issue to Slack](https://imagedelivery.net/3TbraffuDZ4aEf8KWOmI_w/c6a66532-8ab6-4e14-83b6-4333731fe200/public)
+
 ## ✍️ Customize
 
 1. Make sure and update the `repo` parameter to point to a GitHub repository you manage by setting the `GITHUB_REPOSITORY` environment variable.
