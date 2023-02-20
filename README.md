@@ -1,6 +1,6 @@
 ## ✨ Trigger.dev GitHub Issues to Slack
 
-This repo contains a [GitHub IssueEvent](https://docs.trigger.dev/integrations/apis/github/events/issues) Trigger that will run Trigger a workflow whenever an issue action is performed in a GitHub repository:
+This repo contains a [GitHub IssueEvent](https://docs.trigger.dev/integrations/apis/github/events/issues) Trigger that will run whenever an issue action is performed in a GitHub repository:
 
 ```ts
 import { Trigger } from "@trigger.dev/sdk";
