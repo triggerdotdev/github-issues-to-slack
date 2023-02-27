@@ -56,9 +56,19 @@ new Trigger({
 }).listen();
 ```
 
-## An example of the message posted to Slack:
+## 🔧 Install
 
-![GitHub Issue to Slack](https://imagedelivery.net/3TbraffuDZ4aEf8KWOmI_w/c6a66532-8ab6-4e14-83b6-4333731fe200/public)
+You can easily create a new project interactively based on this template by running:
+
+```sh
+npm create trigger@latest hello-world
+# or
+yarn create trigger hello-world
+# or
+pnpm create trigger@latest hello-world
+```
+
+Follow the instructions in the CLI to get up and running locally in <30s.
 
 ## ✍️ Customize
 
@@ -67,43 +77,6 @@ new Trigger({
 
 You can also do this with [comments](https://docs.trigger.dev/integrations/apis/github/events/issue-comments) , [pull requests](https://docs.trigger.dev/integrations/apis/github/events/pull-requests), and more.
 
-## 💻 Run locally
+## An example of the message posted to Slack:
 
-First, in your terminal of choice, clone the repo and install dependencies:
-
-```sh
-git clone https://github.com/triggerdotdev/github-issues-to-slack.git
-cd github-issues-to-slack
-npm install
-```
-
-Then create a `.env` file at the root of the repository (it's already gitignored) with your development Trigger.dev API Key and GITHUB_REPOSITORY:
-
-```
-TRIGGER_API_KEY=<your api key>
-GITHUB_REPOSITORY=<your github repository> # e.g. triggerdotdev/trigger.dev
-```
-
-And finally you are ready to run the process:
-
-```sh
-npm run dev
-```
-
-You should see a message like the following:
-
-```
-[trigger.dev]  ✨ Connected and listening for events [github-issues-to-slack]
-```
-
-## 🚀 Deploy
-
-We've made it really easy to deploy this repo to Render.com, if you don't already have a Node.js server to host your triggers.
-
-[Render.com](https://render.com) is a super-fast way to deploy webapps and servers (think of it like a modern Heroku)
-
-<a href="https://render.com/deploy?repo=https://github.com/triggerdotdev/github-issues-to-slack">
-  <img width="144px" src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-
-> **Note** Make sure you use your "live" trigger.dev API Key when deploying to a server
+![GitHub Issue to Slack](https://imagedelivery.net/3TbraffuDZ4aEf8KWOmI_w/c6a66532-8ab6-4e14-83b6-4333731fe200/public)
